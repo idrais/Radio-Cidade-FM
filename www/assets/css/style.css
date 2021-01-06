@@ -1,0 +1,30 @@
+
+a#play-pause{
+  display: block;
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+
+/*ESTILOS PARA QUANDO O OBJETO FOR TIPO PAUSE*/
+#play-pause.play{
+  background-image: url("../../images/play.png");
+	background-color: aliceblue;
+  float: right;
+}
+
+#play-pause.pause{
+  background-image: url("../../images/pause.png");
+	background-color: aliceblue;
+  float: right;
+}
+footer {
+    position: fixed;
+    bottom:0;
+    left:0;
+}
+a:hover{
+	text-decoration: none;
+}
